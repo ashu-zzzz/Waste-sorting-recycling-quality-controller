@@ -1,15 +1,31 @@
+
+# Virtual environments
 .venv/
 .venv312/
-__pycache__/
-*.pyc
+venv/
+env/
 
+# Dataset
 GARBAGE CLASSIFICATION/
-experiments/
-weights/
-runs/
+dataset/
+datasets/
 
+# Training experiments and outputs
+experiments/
+runs/
+weights/
+
+# Model checkpoints
 *.pt
 *.pth
 *.onnx
 
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary and sensitive files
 .env
+*.log
+.vscode/
+.idea/
